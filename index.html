@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Age calculator app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body class="bg-slate-300  Family:[Poppins](https://fonts.google.com/specimen/Poppins)">
+    <div class="">
+            <div class="bg-white md:w-[680] w-[350] ml-[20] mt-[60] items-center md:ml-[420] h-[600] rounded-br-[100px] rounded-bl-[30px] rounded-tr-[30px] rounded-tl-[30px] md:rounded-br-[180px] md:mt-[120] rounded-lg">
+                <div class="flex md:gap-11 gap-4 ml-[50]">
+                    <form action="">
+              <div class="grid mt-[50]">
+                <label class="text-xs font-bold text-gray-500">DAY</label>
+                <input id="DAY" type="number" class="mt-[8] md:w-[140] w-[80] h-[55] md:h-[60] border font-bold text-2xl rounded-lg border-gray placeholder:text-gray-600 placeholder:text-2xl placeholder:font-bold" placeholder="DD" style="text-indent: 20px;">
+            </div>
+               </form>
+               <form action="">
+            <div class="grid mt-[50]">
+               <label  class="font-bold text-xs text-gray-500">MONTH</label>
+               <input id="MONTH" type="number" class="mt-[8] md:w-[140] w-[80] h-[55] md:h-[60] border font-bold text-2xl rounded-lg border-gray placeholder:text-gray-600 placeholder:text-2xl placeholder:font-bold" placeholder="MM" style="text-indent: 20px;">
+            </div>
+         </form>
+         <form action="">
+            <div class="grid mt-[50]">
+                <label  class="font-bold text-xs text-gray-500">YEAR</label>
+                <input id="YEAR" type="number" class="mt-[8] md:w-[140] w-[80] h-[55] md:h-[60] border font-bold text-2xl rounded-lg border-gray placeholder:text-gray-600 placeholder:text-2xl placeholder:font-bold" placeholder="YYYY" style="text-indent: 20px;">
+            </div>
+        </form>
+           </div>
+
+           <div class="">
+            <div>
+           <hr class="mt-[40] md:ml-[50] ml-[40] mr-[90] md:mr-[120] border ">
+           <div class="-translate-y-12">
+           <button onclick="CalculateAge()" class="bg-[#6d1ee3] rounded-full ml-[200] text-white px-[11] py-[11] mt-4">
+            <img class="" src="/age-calculator-app-main\assets\images\icon-arrow.svg"  alt="">
+        </button>
+    </div>
+
+           
+        </div>
+  
+        <div class="grid bt-solid bt-2 ">
+            <div class="flex gap-4 mt-[2] md:gap-8 relative ">
+                <div class="flex md:gap-4 gap-1 ">
+                    <div id="div1" class="flex">
+                <div class="w-[40] mt-[35] h-[20] bg-blue-800 ml-[20]"></div>
+                <div class="w-[40] mt-[35] h-[20] bg-blue-800 ml-[20]"></div>
+            </div>
+            <div class="gap-9">
+            <span id="yearsResult" class="ml-[30] text-blue-800 text-7xl text-indent: 10px; mt-[13] font-bold italic"></span>
+            </div>
+            <div class="flex">
+            <span class="font-bold text-5xl md:text-7xl italic mt-[10]">Years </span>
+        </div>
+        </div>
+        </div>
+        <div class="flex gap-4 mt-[10] md:gap-8 relative">
+            <div class="flex gap-1 md:gap-3 ">
+                <div id="div2" class="flex">
+            <div class="w-[40] mt-[35] h-[20] bg-blue-800 ml-[20]"></div>
+            <div class="w-[40] mt-[35] h-[20] bg-blue-800 ml-[20]"></div>
+           </div>
+            <span id="monthsResult" class="ml-[30] text-blue-800 text-7xl text-indent: 10px; mt-[13] font-bold italic"></span>                 
+            </div>
+            <div class="flex">
+           <span class="font-bold text-5xl md:text-7xl italic mt-[17]">Months </span> 
+           
+        </div>
+        </div>
+        <div class="flex gap-4 mt-[10] md:gap-8 relative">
+            <div class="flex md:1 md:gap-3 ">
+                <div id="div3" class="flex">
+            <div class="w-[40] mt-[35] h-[20] bg-blue-800 ml-[20]"></div>
+            <div class="w-[40] mt-[35] h-[20] bg-blue-800 ml-[20]"></div>
+        </div>
+        <span id="daysResult" class="ml-[30] text-blue-800 text-7xl text-indent: 10px; mt-[13] font-bold italic"></span>  
+        </div>
+        <div class="flex">
+           <span class="font-bold text-5xl md:text-7xl italic mt-5">Days </span> 
+           
+        </div>
+        </div>
+      </div>
+     </div>
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    <script src="ass.js"></script>
+
+</body>
+</html>
